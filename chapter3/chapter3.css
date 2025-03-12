@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+img {
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    filter: grayscale(30%) brightness(90%);
+}
+
+img:hover {
+    transform: scale(1.1);
+    filter: grayscale(0%) brightness(100%);
+}
+
+figcaption {
+    font-size: 14px;
+    margin-top: 5px;
+}

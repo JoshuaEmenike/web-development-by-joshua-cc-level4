@@ -1,0 +1,86 @@
+/* General page styling */
+body {
+    background-color: black;  /* Sets a dark background */
+    color: white;  /* Makes text white */
+    font-family: Arial, sans-serif;  /* Uses a simple font */
+    text-align: center;  /* Centers text */
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.transparenttextures.com/patterns/stardust.png');  
+    /* Adds a subtle starry effect */
+}
+
+/* Heading styling */
+h1, h2 {
+    color: gold;  /* Sets the text color to gold */
+}
+
+/* Navigation bar */
+nav {
+    background-color: rgba(0, 0, 0, 0.8);  /* Black with slight transparency */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;  /* Removes default bullets from navigation */
+    padding-left: 0;  /* Removes padding */
+}
+
+nav ul li {
+    display: inline;
+    margin: 15px;
+}
+
+nav ul li a {
+    color: yellow;  /* Makes links yellow */
+    text-decoration: none;  /* Removes underlines */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: gold;  /* Changes color on hover */
+}
+
+/* Custom golden bullets for unordered lists */
+ul {
+    padding-left: 0;  /* Removes default padding for the list */
+}
+
+ul li {
+    color: white;  /* Makes the text color white */
+    position: relative;  /* Allows us to position the pseudo-element */
+    padding-left: 25px;  /* Adds space between the bullet and the text */
+    list-style-type: none; /* Ensures no default bullets */
+}
+
+ul li::before {
+    content: '';  /* Adds content before each list item */
+    position: absolute;  /* Positions the bullet */
+    left: 0;
+    top: 5px;  /* Adjusts vertical position */
+    width: 8px;  /* Bullet size */
+    height: 8px;  /* Bullet size */
+    background-color: gold;  /* Golden color for the bullet */
+    border-radius: 50%;  /* Makes the bullet a circle */
+}
+
+/* Section styling */
+section {
+    padding: 20px;
+    border-bottom: 1px solid white;  /* Adds a white line under each section */
+}
+
+/* Button styling */
+.button {
+    display: inline-block;
+    background-color: gold;  /* Makes button gold */
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;  /* Rounds edges */
+}
+
+.button:hover {
+    background-color: orange;  /* Changes color on hover */
+}
