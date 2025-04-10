@@ -1,0 +1,138 @@
+/* Body styling */
+body {
+    font-family: "Roboto", sans-serif; /* Set font to Roboto */
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/premium-vector/set-luxury-seamless-patterns-artwork-illustration_114835-1305.jpg?w=1380'); /* Set background image */
+    background-size: cover; /* Make the image cover the entire page */
+    background-position: center; /* Center the background image */
+}
+
+/* Footer styling - Fixed at the bottom */
+footer {
+    background-color: rgba(22, 37, 24, 0.8); /* Dark background with slight transparency */
+    color: white;
+    padding: 4px 0;
+    text-align: center;
+    position: fixed; /* Fix the footer at the bottom */
+    bottom: 0;
+    width: 100%;
+}
+
+/* Styling for the second column */
+.column2 {
+    background-color: rgba(22, 37, 24, 0.8); /* Dark background with slight transparency */
+    color: white;
+    padding: 4px 0;
+    text-align: center;
+}
+
+/* Styling for the first column */
+.column1 {
+    background-color: rgba(22, 37, 24, 0.8); /* Dark background with slight transparency */
+    color: white;
+    padding: 4px 0;
+    text-align: center;
+}
+
+/* Styling for buttons grid layout */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
+    gap: 30px; /* Space between buttons */
+    padding: 15px;
+}
+
+/* Button styling */
+.buttons button {
+    padding: 5px 20px;
+    font-size: 16px;
+    background-color: #2fa857; /* Green button color */
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Hover effect for buttons */
+.buttons button:hover {
+    background-color: #39e5c5; /* Lighter green on hover */
+    transform: scale(1.1); /* Slightly enlarge the button */
+}
+
+/* Styling for bold text within buttons */
+b {
+    font-size: 20px;
+}
+
+/* Container layout for columns */
+.container {
+    display: flex; /* Flexbox layout */
+    flex-wrap: wrap; /* Wrap content to new rows if necessary */
+}
+
+/* Individual column styling */
+.column {
+    flex: 1; /* Each column takes up equal space */
+    padding: 0.5em;
+}
+
+/* Styling for right and left arrows/buttons */
+.right, .left {
+    float: right; /* Float buttons to the right */
+    padding: 0.2em;
+    margin-right: 15px;
+    font-size: 30px; /* Large font for arrows */
+    background-color: #356746; /* Dark green background */
+    color: white;
+    border: none;
+    border-radius: 35px; /* Rounded edges for the buttons */
+    cursor: pointer;
+    transition: 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Hover effect for right and left arrows */
+.right:hover, .left:hover {
+    background-color: #39e5c5; /* Lighter green on hover */
+    transform: scale(1.1); /* Slightly enlarge the buttons */
+    color: #356746; /* Dark green color for the arrow text */
+}
+
+/* Styling for the text area where users input text */
+textarea {
+    resize: none; /* Disable resizing of the textarea */
+    width: 90%; /* Set width to 90% of parent container */
+    height: 150px;
+    padding: 15px;
+    font-size: 23px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700; /* Bold text */
+    border-radius: 20px; /* Rounded edges for the textarea */
+    border: none;
+    margin: 15px;
+}
+
+/* Focus styling for the textarea (removes outline) */
+textarea:focus {
+    outline: none;
+}
+
+/* Play button styling */
+.play {
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 15px;
+    background-color: #2fa857; /* Green background for the button */
+    color: white;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Hover effect for play button */
+.play:hover {
+    background-color: #39e5c5; /* Lighter green on hover */
+    transform: scale(1.1); /* Slightly enlarge the button */
+}

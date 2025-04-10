@@ -1,0 +1,56 @@
+/* Global Styles */
+body {
+    font-family: "Roboto", sans-serif; /* Sets font for the body */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    background-image: url('https://img.freepik.com/premium-vector/set-luxury-seamless-patterns-artwork-illustration_114835-1305.jpg?w=1380'); /* Background image URL */
+    background-repeat: repeat; /* Makes sure the pattern repeats */
+    background-size: cover; /* Ensures the background covers the entire screen */
+}
+
+/* Header and Footer Styling */
+header, footer {
+    background-color: #162518; /* Dark background for header and footer */
+    color: white; /* White text */
+    padding: 4px 0; /* Padding to top and bottom */
+    text-align: center; /* Centered text */
+}
+
+/* Footer: Fixed at the bottom of the page */
+footer {
+    position: fixed; /* Sticks to the bottom of the page */
+    bottom: 0; /* Aligns it to the bottom */
+    width: 100%; /* Full width */
+}
+
+/* Button Grid Layout */
+.buttons {
+    display: grid; /* Uses grid layout */
+    grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
+    gap: 30px; /* Spacing between buttons */
+    padding: 30px; /* Adds padding around the grid */
+    margin-top: 20px; /* Adds space from the top */
+}
+
+/* Button Styling */
+.buttons button {
+    padding: 5px 20px; /* Adds padding inside buttons */
+    font-size: 16px; /* Text size */
+    background-color: #FFD700; /* Gold background for buttons */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 15px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover Effect for Buttons */
+.buttons button:hover {
+    background-color: #FFD700; /* Gold background on hover (unchanged) */
+    transform: scale(1.1); /* Slightly increase the size of the button */
+}
+
+/* Bold Text Styling */
+b {
+    font-size: 20px; /* Larger font size for bold text */
+}

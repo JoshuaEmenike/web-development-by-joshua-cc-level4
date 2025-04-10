@@ -1,0 +1,36 @@
+/* Make sure the page fills the entire viewport and has no default margin */
+body, html {
+  height: 100%; /* Ensures full height */
+  margin: 0; /* Removes default margin */
+}
+
+/* Container for video and image content */
+.video-container {
+  display: flex; /* Use flexbox layout */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  height: 100%; /* Take full viewport height */
+  background-color: #f4f4f4; /* Light grey background */
+}
+
+/* Center the text under the video */
+.content {
+  text-align: center; /* Align text to center */
+}
+
+/* Video styling */
+video {
+  max-width: 100%; /* Responsive width */
+  display: block; /* Removes inline spacing */
+  margin: 0 auto 1rem; /* Center video and add space below */
+}
+
+/* Image inside the content block */
+.content img {
+  max-width: 100%; /* Responsive width */
+  display: block; /* Removes inline spacing */
+  margin: 0 auto; /* Center image horizontally */
+  border-radius: 8px; /* Rounded corners */
+  border: 1px solid #aaa; /* Light grey border */
+}

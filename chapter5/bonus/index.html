@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Metadata -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joshua Emenike</title> <!-- Page title shown in browser tab -->
+  
+  <!-- Link to external CSS file for styling -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- AUDIO ELEMENTS SECTION -->
+  <!-- Each <audio> tag holds a sound clip used for the buttons -->
+  <!-- The "id" lets us reference and control the audio with JavaScript -->
+
+  <audio id="audio_1">
+    <source src="audio/ah-ha.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <audio id="audio_2">
+    <source src="audio/back-of-the-net.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <audio id="audio_3">
+    <source src="audio/bangoutoforder.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <audio id="audio_4">
+    <source src="audio/dan.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <audio id="audio_5">
+    <source src="audio/emailoftheevening.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <audio id="audio_6">
+    <source src="audio/hellopartridge.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <audio id="audio_7">
+    <source src="audio/iateascotchegg.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <audio id="audio_8">
+    <source src="audio/imconfused.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- HEADER SECTION -->
+  <!-- Main heading displayed at the top of the page -->
+  <header>
+    <h1>Joshua Emenike</h1>
+  </header>
+
+  <!-- MAIN CONTENT: BUTTON SOUNDBOARD -->
+  <!-- Each button plays a different audio clip when clicked -->
+  <main>
+    <div class="buttons">
+      <!-- Button 1 -->
+      <button onclick="playAudio1()">
+        <p>#10</p>
+        <p><b>Ah-Ha</b></p>
+        <p>1.4s</p>
+      </button>
+
+      <!-- Button 2 -->
+      <button onclick="playAudio4()">
+        <p>#11</p>
+        <p><b>Dan</b></p>
+        <p>0.5s</p>
+      </button>
+
+      <!-- Button 3 -->
+      <button onclick="playAudio2()">
+        <p>#12</p>
+        <p><b>Back of the net</b></p>
+        <p>1.02s</p>
+      </button>
+
+      <!-- Button 4 -->
+      <button onclick="playAudio3()">
+        <p>#13</p>
+        <p><b>Bang out of order</b></p>
+        <p>1.38s</p>
+      </button>
+
+      <!-- Button 5 -->
+      <button onclick="playAudio5()">
+        <p>#14</p>
+        <p><b>Email of the evening</b></p>
+        <p>?</p>
+      </button>
+
+      <!-- Button 6 -->
+      <button onclick="playAudio7()">
+        <p>#15</p>
+        <p><b>I ate a scotch egg</b></p>
+        <p>?</p>
+      </button>
+
+      <!-- Button 7 -->
+      <button onclick="playAudio8()">
+        <p>#16</p>
+        <p><b>I'm confused</b></p>
+        <p>1.49s</p>
+      </button>
+
+      <!-- Button 8 (Not Assigned) -->
+      <button>
+        <p>#17</p>
+        <p><b>Not Assigned</b></p>
+        <p>?</p>
+      </button>
+
+      <!-- Button 9 -->
+      <button onclick="playAudio6()">
+        <p>#18</p>
+        <p><b>Hello Partridge</b></p>
+        <p>2.25s</p>
+      </button>
+    </div>
+  </main>
+
+  <!-- FOOTER SECTION -->
+  <!-- Text shown at the bottom of the page -->
+  <footer>
+    <p>Created by Joshua Emenike</p>
+  </footer>
+
+  <!-- JAVASCRIPT LINK -->
+  <!-- This file contains the JavaScript functions that play each audio -->
+  <script src="index.js"></script>
+</body>
+</html>

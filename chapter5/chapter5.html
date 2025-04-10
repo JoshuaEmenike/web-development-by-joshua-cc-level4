@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Embedded Video</title>
+
+  <!-- Link to external CSS stylesheet -->
+  <link rel="stylesheet" href="chapter5.css" />
+</head>
+<body>
+
+  <!-- Container for video and image content -->
+  <div class="video-container">
+    <div class="content">
+
+      <!-- Embedded video with autoplay, loop, and controls -->
+      <video 
+        src="vid.mp4" 
+        loop 
+        autoplay 
+        muted 
+        controls>
+        <!-- Fallback message for unsupported browsers -->
+        Your browser does not support the video tag.
+      </video>
+
+      <!-- Static image shown below the video -->
+      <img src="poster.png" alt="Image below video" width="600" height="300">
+    </div>
+  </div>
+  
+</body>
+</html>

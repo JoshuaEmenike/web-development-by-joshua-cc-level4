@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua Emenike Soundboard</title> <!-- Changed the title to Joshua Emenike -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Audio Elements -->
+
+<audio id="audio_1">
+    Your browser does not support the audio element.
+    <source src="audio/ah-ha.mp3" type="audio/mpeg">    
+</audio>
+<audio id="audio_2">
+    Your browser does not support the audio element.
+    <source src="audio/back-of-the-net.mp3" type="audio/mpeg">    
+</audio>
+<audio id="audio_3">
+    Your browser does not support the audio element.
+    <source src="audio/bangoutoforder.mp3" type="audio/mpeg">    
+</audio>
+<audio id="audio_4">
+    Your browser does not support the audio element.
+    <source src="audio/dan.mp3" type="audio/mpeg">    
+</audio>
+<audio id="audio_5">
+    Your browser does not support the audio element.
+    <source src="audio/emailoftheevening.mp3" type="audio/mpeg">    
+</audio>
+<audio id="audio_6">
+    Your browser does not support the audio element.
+    <source src="audio/hellopartridge.mp3" type="audio/mpeg">    
+</audio>
+<audio id="audio_7">
+    Your browser does not support the audio element.
+    <source src="audio/iateascotchegg.mp3" type="audio/mpeg">    
+</audio>
+<audio id="audio_8">
+    Your browser does not support the audio element.
+    <source src="audio/imconfused.mp3" type="audio/mpeg">    
+</audio>
+
+<!-- Columns for content -->
+
+<div class="container">
+    <div class="column">
+        <header class="column1">
+            <h1>Psychedelic Fish - Text to Speech</h1> <!-- Changed text content -->
+        </header>
+        <textarea placeholder="Enter text here..." id="textToSpeech" rows="4" cols="50"></textarea>
+        <button class="play" onclick="textToSpeech()">Speak</button>
+    </div>
+    <div class="column">
+        <header class="column2">
+            <h1>Audio Sampler</h1>
+        </header>
+        <div class="buttons">
+            <!-- Button for each audio clip -->
+            <button onclick="playAudio1()"> <!-- Play "Ah-Ha" sound -->
+                <p>10.</p>
+                <p><b>Ah-Ha</b></p>
+                <p>1.4</p>
+            </button>
+            <button onclick="playAudio4()"> <!-- Play "Dan" sound -->
+                <p>11.</p>
+                <p><b>Dan</b></p>
+                <p>0.5</p>
+            </button>
+            <button onclick="playAudio2()"> <!-- Play "Back of the net" sound -->
+                <p>12.</p>
+                <p><b>Back of the net</b></p>
+                <p>1.02</p>
+            </button>
+            <button onclick="playAudio3()"> <!-- Play "Bang out of order" sound -->
+                <p>13.</p>
+                <p><b>Bang out of order</b></p>
+                <p>1.38</p>
+            </button>
+            <button onclick="playAudio5()"> <!-- Play "Email of the evening" sound -->
+                <p>14.</p>
+                <p><b>Email of the evening</b></p>
+                <p>??</p>
+            </button>
+            <button onclick="playAudio7()"> <!-- Play "I ate a scotch egg" sound -->
+                <p>15.</p>
+                <p><b>I ate a scotch egg</b></p>
+                <p>??</p>
+            </button>
+            <button onclick="playAudio8()"> <!-- Play "I'm confused" sound -->
+                <p>16.</p>
+                <p><b>I'm confused</b></p>
+                <p>1.49</p>
+            </button>
+            <button>
+                <p>17.</p>
+                <p><b>N/A</b></p>
+                <p>??</p>
+            </button>
+            <button onclick="playAudio6()"> <!-- Play "Hello Partridge" sound -->
+                <p>18.</p>
+                <p><b>Hello Partridge</b></p>
+                <p>2.25</p>
+            </button>
+        </div>
+        <button class="right">&rarr;</button>
+        <button class="left">&larr;</button>
+    </div>
+</div>
+
+<!-- Footer Section -->
+
+<footer>
+    <p>Created by Joshua Emenike</p> <!-- Changed footer text -->
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>

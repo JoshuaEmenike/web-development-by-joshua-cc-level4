@@ -1,0 +1,78 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif; /* Sets a clean, readable font */
+    margin: 0; /* Removes default browser margin */
+    background-color: #f0f4f8; /* Light background color */
+}
+
+/* Header Styling */
+header {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 20px; /* Space inside the header */
+    text-align: center; /* Center-align text */
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: #333; /* Dark background for nav */
+}
+nav ul {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Horizontal layout */
+    justify-content: center; /* Center the nav items */
+    list-style: none; /* Remove bullet points */
+}
+nav li {
+    margin: 0; /* No spacing between list items */
+}
+nav a {
+    display: block; /* Make the link fill the list item */
+    padding: 15px 20px; /* Add space around the text */
+    color: white; /* White text */
+    text-decoration: none; /* Remove underline */
+}
+nav a:hover {
+    background-color: #555; /* Change background on hover */
+}
+
+/* Main Layout with Three Columns */
+main {
+    display: flex; /* Flex layout for columns */
+    justify-content: space-between; /* Space between columns */
+    padding: 20px; /* Padding around main area */
+}
+
+/* Individual Column Styling */
+.column {
+    width: 30%; /* Each column takes 30% of the width */
+    background-color: white; /* White background */
+    padding: 20px; /* Space inside the box */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1); /* Soft shadow */
+}
+
+/* Button Styling */
+button {
+    margin-top: 15px; /* Space above the button */
+    padding: 10px 15px; /* Padding inside button */
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove border */
+    color: white; /* White text */
+    font-size: 14px; /* Text size */
+    border-radius: 5px; /* Rounded edges */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+button:hover {
+    background-color: #388e3c; /* Darker green on hover */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center; /* Center-align text */
+    padding: 15px; /* Padding inside the footer */
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    margin-top: 20px; /* Space above the footer */
+}

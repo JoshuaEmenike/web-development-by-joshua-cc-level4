@@ -1,0 +1,118 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base body styling */
+body {
+  font-family: Arial, sans-serif; /* Sets base font */
+  color: #000000; /* Black text */
+  background-color: #ffffff; /* White background */
+}
+
+/* Header section styling */
+header {
+  background-color: #17072b; /* Dark purple background */
+  color: #ffffff; /* White text */
+  padding: 1rem; /* Space inside header */
+  text-align: center; /* Centered text */
+  font-family: Tahoma, sans-serif; /* Custom font for header */
+  font-weight: 700; /* Bold text */
+}
+
+/* Navigation bar styling */
+nav {
+  background-color: #17072b; /* Matches header */
+}
+
+/* Nav list layout */
+nav ul {
+  display: flex; /* Horizontal layout */
+  justify-content: center; /* Center nav items */
+  list-style-type: none; /* Remove bullets */
+  padding: 0.5rem 0; /* Space above and below */
+}
+
+/* Nav list item spacing */
+nav ul li {
+  margin: 0 1rem; /* Space between items */
+}
+
+/* Nav links styling */
+nav ul li a {
+  color: #ffffff; /* White links */
+  text-decoration: none; /* No underlines */
+  font-weight: bold; /* Bold text */
+}
+
+/* Main layout table */
+main table {
+  width: 100%; /* Full width */
+  margin: 2rem auto; /* Vertical spacing */
+}
+
+td {
+  vertical-align: top; /* Align top of cells */
+  padding: 1rem; /* Space inside cells */
+  width: 50%; /* Equal width columns */
+}
+
+/* Welcome section image styling */
+.welcome img {
+  width: 70%; /* Set width */
+  height: 40%; /* Set height */
+  margin-top: 1rem; /* Space above image */
+}
+
+/* Line Up section container */
+.lineup {
+  background-color: #003366; /* Dark blue */
+  color: #ffffff; /* White text */
+  padding: 1rem; /* Padding inside */
+}
+
+/* Line Up list styling */
+.lineup ul {
+  list-style-type: none; /* Remove bullets */
+  padding-left: 0; /* Remove padding */
+}
+
+/* Line Up list item styling */
+.lineup ul li {
+  margin: 0.5rem 0; /* Vertical spacing */
+  padding-left: 1rem; /* Indent text */
+  position: relative; /* For custom bullet */
+  color: #ffffff; /* Ensure white text */
+}
+
+/* Custom hyphen before each Line Up list item */
+.lineup ul li::before {
+  content: "-"; /* Hyphen */
+  position: absolute;
+  left: 0;
+}
+
+/* Layout for Line Up images */
+.lineup-images {
+  display: flex; /* Row layout */
+  gap: 10px; /* Gap between images */
+  margin-top: 1rem; /* Space above images */
+}
+
+/* Styling for each Line Up image */
+.lineup-images img {
+  width: 50%; /* Take up half of container */
+  object-fit: cover; /* Ensure image fills area */
+  aspect-ratio: 1 / 1; /* Make images square */
+}
+
+/* Footer styling */
+footer {
+  background-color: #8c15e9; /* Purple background */
+  color: #ffffff; /* White text */
+  text-align: center; /* Centered text */
+  padding: 1rem; /* Space inside */
+  margin-top: 2rem; /* Space above */
+}
